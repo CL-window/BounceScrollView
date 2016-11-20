@@ -39,9 +39,9 @@ public class MainActivity extends AppCompatActivity {
         mHorizontalRecyclerView.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false));
         mHorizontalRecyclerView.setAdapter(new TestAdapter());
 
-        mRecyclerView = (RecyclerView) findViewById(R.id.id_listView2);
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-        mRecyclerView.setAdapter(new TestAdapter());
+//        mRecyclerView = (RecyclerView) findViewById(R.id.id_listView2);
+//        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+//        mRecyclerView.setAdapter(new TestAdapter());
 
         mRecycleView2 = (RecyclerView) findViewById(R.id.id_listView3);
         mRecycleView2.setLayoutManager(new LinearLayoutManager(this));
@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= 9) {
             mHorizontalRecyclerView.setOverScrollMode(View.OVER_SCROLL_NEVER);
             mRecyclerView.setOverScrollMode(View.OVER_SCROLL_NEVER);
-            mRecycleView2.setOverScrollMode(View.OVER_SCROLL_NEVER);
         }
     }
 

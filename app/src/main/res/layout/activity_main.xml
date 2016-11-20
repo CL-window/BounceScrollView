@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"/>
     </com.cl.slack.bounceview.BounceHorizontalScrollView>
 
-    <com.cl.slack.bounceview.BounceScrollView
+    <!--<com.cl.slack.bounceview.BounceScrollView
         android:id="@+id/id_scrollView2"
         android:background="@mipmap/ic_launcher"
         android:layout_width="match_parent"
@@ -30,7 +30,7 @@
             android:background="#fff"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
-    </com.cl.slack.bounceview.BounceScrollView>
+    </com.cl.slack.bounceview.BounceScrollView>-->
 
     <com.cl.slack.bounceview.BounceScrollViewWithBackground
         android:background="@mipmap/ic_launcher"
