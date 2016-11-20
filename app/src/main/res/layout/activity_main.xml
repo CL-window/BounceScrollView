@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cl.slack.bounceview.MainActivity">
+
+    <com.cl.slack.bounceview.BounceHorizontalScrollView
+        android:id="@+id/id_scrollView"
+        android:background="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.cl.slack.bounceview.MyRecycleView
+            android:id="@+id/id_listView"
+            android:background="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </com.cl.slack.bounceview.BounceHorizontalScrollView>
+
+    <com.cl.slack.bounceview.BounceScrollView
+        android:id="@+id/id_scrollView2"
+        android:background="@mipmap/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <com.cl.slack.bounceview.MyRecycleView
+            android:id="@+id/id_listView2"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.cl.slack.bounceview.BounceScrollView>
+
+    <com.cl.slack.bounceview.BounceScrollViewWithBackground
+        android:background="@mipmap/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.cl.slack.bounceview.MyRecycleView
+            android:id="@+id/id_listView3"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.cl.slack.bounceview.BounceScrollViewWithBackground>
+</LinearLayout>

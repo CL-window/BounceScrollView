@@ -1,0 +1,5 @@
+## BounceScrollView
+滑动会反弹的view,
+这次主要是为了使用RecycleView,遇到一些坑，很大的可能就是事件冲突导致的
+无非就是RecycleView的Scroll事件，touch事件
+滑动的时候把touch事件拦截掉，RecycleView的高度为数据量的高度
